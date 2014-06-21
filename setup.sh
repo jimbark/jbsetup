@@ -32,9 +32,6 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 # install dotfiles as well
 cd $HOME
-if [ -d ./jbsetup/dotfiles/ ]; then
-    mv jbsetup/dotfiles jbsetup/dotfiles.old
-fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
