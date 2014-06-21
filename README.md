@@ -7,7 +7,9 @@ follows:
 ```sh
 cd $HOME
 sudo apt-get install -y git-core
-git clone https://github.com/?????????/jbsetup.git
+git clone git@github.com:jimbark/jbsetup.git
+OR
+git clone https://github.com/jimbark/jbsetup.git
 ./jbsetup/setup.sh   
 ```
 
