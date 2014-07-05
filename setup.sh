@@ -16,6 +16,9 @@ nvm use v0.10
 # http://jshint.com/
 npm install -g jshint
 
+# Install express 
+npm install -g express
+
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
